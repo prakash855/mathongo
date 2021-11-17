@@ -1,13 +1,13 @@
 #spriteOne {
   height: 50px;
-  width: 54px;
+  width: 53px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   background-image: url("./jee-advanced-sprite.png");
   background-repeat: no-repeat;
-  /* background-position: -55px -1px; */
+  background-position: -4px -5px;
 }
 #spriteTwo {
   height: 50px;

@@ -10,6 +10,7 @@ const ResponsiveQuestions = () => {
         <BsFillInfoCircleFill color="#4C96E3" />,
       ]}
       id="nav-dropdown"
+      className="mb-10"
     >
       <NavDropdown.Item eventKey="4.1">
         {["PHYSICS SINGLE CORRECT ", <BsFillInfoCircleFill color="#4C96E3" />]}

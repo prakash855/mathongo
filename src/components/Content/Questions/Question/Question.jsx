@@ -27,33 +27,37 @@ const Question = () => {
       ) : (
         <>
           <h6>Question No 1</h6>
-          <h5 className="questionHead">
-            Physics Single Correct(Maximum Marks:18)
-          </h5>
-          <h5 className="questionHead">Only One Option Correct Type</h5>
-          <p className="questionHead">
-            The section contains 6 multiple type questions. Each question has
-            four choice (A), (B), (C) and (D) out of which ONLY ONE is correct
-          </p>
-          <hr />
-          {Object.keys(myQuestion).length && (
-            <MathJaxContext>
-              <MathJax className="question">{myQuestion.question.text}</MathJax>
-              {myQuestion.options.map((option, id) => (
-                <div key={id} className="d-flex question">
-                  <input
-                    type="radio"
-                    id={option.text}
-                    name="jee_advanced_questions"
-                    value={option.text}
-                  />
-                  <MathJax>
-                    <label for={option.text}>{option.text}</label>
-                  </MathJax>
-                </div>
-              ))}
-            </MathJaxContext>
-          )}
+          <div style={{ marginTop: "1rem" }}>
+            <h5 className="questionHead">
+              Physics Single Correct(Maximum Marks:18)
+            </h5>
+            <h5 className="questionHead">Only One Option Correct Type</h5>
+            <p className="questionHead">
+              The section contains 6 multiple type questions. Each question has
+              four choice (A), (B), (C) and (D) out of which ONLY ONE is correct
+            </p>
+            <hr />
+            {Object.keys(myQuestion).length && (
+              <MathJaxContext>
+                <MathJax className="question">
+                  {myQuestion.question.text}
+                </MathJax>
+                {myQuestion.options.map((option, id) => (
+                  <div key={id} className="d-flex question">
+                    <input
+                      type="radio"
+                      id={option.text}
+                      name="jee_advanced_questions"
+                      value={option.text}
+                    />
+                    <MathJax>
+                      <label for={option.text}>{option.text}</label>
+                    </MathJax>
+                  </div>
+                ))}
+              </MathJaxContext>
+            )}
+          </div>
         </>
       )}
     </>
