@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Tabs, Tab, NavDropdown } from "react-bootstrap";
+import { Tabs, Tab } from "react-bootstrap";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import Question from "./Question/Question";
 import ResponsiveQuestions from "./Question/ResponsiveQuestions";
