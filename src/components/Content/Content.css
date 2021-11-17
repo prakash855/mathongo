@@ -1,0 +1,22 @@
+.container {
+  max-width: 1300px;
+  margin-top: 0.3rem;
+}
+.nav-link {
+  padding: 0.4rem 2px;
+  /* font-size: 12px; */
+}
+.rightcontent {
+  background: #e5f6fd;
+}
+@media (max-width: 978px) {
+  .rightcontent {
+    display: none;
+  }
+  .container{
+    font-size: 12px;
+  }
+  h5{
+    font-size: 15px;
+  }
+}

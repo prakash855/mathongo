@@ -1,0 +1,62 @@
+#spriteOne {
+  height: 50px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("./jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  /* background-position: -55px -1px; */
+}
+#spriteTwo {
+  height: 50px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("./jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -55px -1px;
+}
+#spriteThree {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("./jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -159px -4px;
+}
+#spriteFour {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("./jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -108px -1px;
+}
+#spriteFive {
+  height: 50px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("./jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -203px -48px;
+}
+.aligns {
+  display: flex;
+  align-items: center;
+}
+.text {
+  font-size: 10px;
+}

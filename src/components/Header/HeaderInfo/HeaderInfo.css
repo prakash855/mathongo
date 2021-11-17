@@ -2,3 +2,11 @@
   background: #363538;
   color: white;
 }
+@media (max-width: 790px) {
+  .sections {
+    display: none;
+  }
+  .content{
+    font-size: 11px;
+  }
+}

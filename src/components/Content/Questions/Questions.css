@@ -1,0 +1,17 @@
+.tabs {
+  font-size: 12px;
+}
+.dropdown {
+  display: none;
+}
+@media (max-width: 790px) {
+  .tabs {
+    display: none;
+  }
+  .dropdown{
+    display: unset;
+  }
+}
+.dropdown-item {
+  font-size: 10px;
+}

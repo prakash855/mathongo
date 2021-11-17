@@ -4,10 +4,10 @@ import HeaderTitle from "./HeaderTitle/HeaderTitle";
 
 const Header = () => {
   return (
-    <>
+    <header>
       <HeaderTitle />
       <HeaderInfo />
-    </>
+    </header>
   );
 };
 

@@ -1,0 +1,19 @@
+.footer {
+  position: relative;
+  top: 4rem;
+}
+.btns{
+  width: 197.719px;
+  margin: 0.2rem;
+}
+@media (max-width: 790px) {
+  .footer {
+    position: relative;
+    top: 0.5rem;
+  }
+  .btns {
+    font-size: 10px;
+    width: 140px !important;
+    margin: 0.1rem !important;
+  }
+}

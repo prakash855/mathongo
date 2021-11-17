@@ -1,0 +1,66 @@
+.one {
+  width: 43px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../Answer/jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -292px -69px;
+}
+.two {
+  width: 42px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../Answer/jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -435px -67px;
+}
+.one {
+  width: 43px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../Answer/jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -292px -18px;
+}
+.one {
+  width: 43px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../Answer/jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -292px -69px;
+}
+.five {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../Answer/jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -391px -67px;
+}
+.six {
+  width: 43px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../Answer/jee-advanced-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -342px -18px;
+}

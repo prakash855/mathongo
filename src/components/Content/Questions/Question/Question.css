@@ -1,0 +1,13 @@
+.questionHead {
+  text-align: center;
+}
+.question {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.loader {
+  position: relative;
+  top: 15rem;
+  left: 35rem;
+  margin-bottom: 25rem;
+}
