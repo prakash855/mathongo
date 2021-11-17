@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <Navbar className="d-flex justify-content-between mb-2 footer">
+    <Navbar fixed="bottom" className="d-flex justify-content-between mb-2 footer">
       <div>
         <Button className="btns" variant="outline-dark">
           Mark for Review & Next
