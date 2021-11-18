@@ -11,3 +11,8 @@
   left: 35rem;
   margin-bottom: 25rem;
 }
+@media (max-width: 790px) {
+  .question {
+    margin-bottom: 1rem;
+  } 
+}

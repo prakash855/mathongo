@@ -3,10 +3,10 @@
   margin: 0.2rem;
 }
 @media (max-width: 790px) {
-  .footer {
+  /* .footer {
     position: relative;
     top: 0.5rem;
-  }
+  } */
   .btns {
     font-size: 10px;
     width: 140px !important;
